@@ -16,18 +16,23 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
+     <!--primera parte-->
+     <h4>Original:
+      <input id="cardCount" type="text" value="6"/><!--CARTAS QUE QUIERO GENERAR-->
+      <button id="draw">draw</button><!--BOTON DRAW-->
+      <button id="sort">sort</button><!--BOTON SORT-->
+      <div class="deck unsorted"></div><!--aqui muestra las cartas-->
+     </h4>
+
+     <!--segunda parte-->
+     <h4>
+      Bubble Log:
+     </h4>
+     <ul class="solution-log"></ul>
+
       <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+        Made with ❤️ by Jennifer
       </div>
-    </div>
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>
